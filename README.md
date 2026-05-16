@@ -22,7 +22,7 @@ Website Landing Page untuk **Nasi Goreng Domis**, sebuah warung spesialis Nasi G
 
 1. Clone repositori ini ke komputer Anda:
    ```bash
-   git clone https://github.com/username-anda/landing-page-nasgor.git
+   git clone https://github.com/MujiRahman/landing-page-nasgor.git
    cd landing-page-nasgor
    ```
 
