@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nasi Goreng Domis - Landing Page
 
-## Getting Started
+Website Landing Page untuk **Nasi Goreng Domis**, sebuah warung spesialis Nasi Goreng, Mie Goreng, dan Kuetiau yang berlokasi di Jatinegara, Jakarta Timur. Website ini dirancang untuk memberikan informasi terkait menu, lokasi, jam operasional, serta memudahkan pelanggan untuk melakukan pemesanan langsung melalui WhatsApp.
 
-First, run the development server:
+## 🚀 Fitur Utama
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Desain Modern & Responsif**: Tampilan yang elegan dan nyaman digunakan di berbagai ukuran layar (Mobile & Desktop).
+- **Katalog Menu**: Menampilkan pilihan menu andalan beserta harga dan foto yang menggugah selera.
+- **Integrasi WhatsApp**: Tombol "Pesan Sekarang" yang secara otomatis mengarahkan pelanggan ke chat WhatsApp beserta format pesan.
+- **Peta Lokasi (Google Maps)**: Memudahkan pelanggan menavigasi rute menuju lokasi warung di belakang Stasiun Jatinegara.
+- **SEO Optimized**: Konfigurasi meta tag dan *Schema Markup* khusus restoran (`Restaurant`) agar bisnis mudah ditemukan di mesin pencari Google.
+- **Dark Mode Support**: Tema gelap (*dark mode*) yang mengikuti setelan atau preferensi perangkat pengguna secara otomatis.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **[Next.js (App Router)](https://nextjs.org/)** - React framework yang cepat dan mendukung SEO (*Server Components*).
+- **[Tailwind CSS](https://tailwindcss.com/)** - *Utility-first CSS framework* untuk mempercepat *styling*.
+- **[Lucide React](https://lucide.dev/)** - Kumpulan ikon *open-source* yang minimalis dan rapi.
+- **[TypeScript](https://www.typescriptlang.org/)** - Superset JavaScript untuk penulisan kode yang lebih aman (*type-safe*).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Cara Menjalankan Project (Local Development)
 
-## Learn More
+1. Clone repositori ini ke komputer Anda:
+   ```bash
+   git clone https://github.com/username-anda/landing-page-nasgor.git
+   cd landing-page-nasgor
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install semua dependensi yang dibutuhkan:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Jalankan *development server*:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Buka tab browser baru dan kunjungi [http://localhost:3000](http://localhost:3000) untuk melihat hasilnya. Anda bisa mengedit halaman secara *real-time* di `src/app/page.tsx`.
 
-## Deploy on Vercel
+## 📂 Struktur Folder Penting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `src/app/page.tsx` — Konten utama (UI) dari Landing Page.
+- `src/app/layout.tsx` — *Wrapper* halaman, konfigurasi metadata SEO, dan Font.
+- `src/app/globals.css` — Konfigurasi warna tema (*CSS variables*) dan integrasi Tailwind.
+- `public/images/` — Direktori tempat penyimpanan aset foto dan *background*.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Lisensi
+
+Hak Cipta dilindungi. Proyek ini dibangun secara khusus untuk **Nasi Goreng Domis**. Penggunaan ulang aset atau desain komersial tanpa seizin pemilik dilarang.
